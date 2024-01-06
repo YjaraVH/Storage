@@ -1,4 +1,4 @@
-SHOW DATABASES;
-use acanthochromis_polyacanthus_core_100_1;
-SHOW TABLES in acanthochromis_polyacanthus_core_100_1;
+SHOW DATABASES WHERE `Database` LIKE '%homo%';
+use homo_sapiens_cdna_100_38;
+SHOW TABLES in homo_sapiens_cdna_100_38;
 select * from biotype limit 5
